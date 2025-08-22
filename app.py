@@ -45,9 +45,9 @@ def talk():
             engine.say('wowwwwwwwwwwwwww')
             engine.runAndWait()
     except sr.UnknownValueError:
-        l4=tk.Label(root,f'{e1.get()} cannot hear you').pack()
+        l4=tk.Label(root,text=f'{e1.get()} cannot hear you').pack()
     except sr.RequestError:
-        l5=tk.Label(root,f'{e1.get()} is busy now').pack()    
+        l5=tk.Label(root,text=f'{e1.get()} is busy now').pack()    
 btn4=tk.Button(root,text=f'Talk with {e1.get()}',command=talk,cursor='hand2').pack(pady=2)
 def food():
     k=randint(1,100)
