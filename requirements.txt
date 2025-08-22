@@ -1,0 +1,4 @@
+Pillow>=10.0.0         # For Image, ImageTk
+pyttsx3>=2.90          # For text-to-speech
+SpeechRecognition>=3.10.0  # For voice recognition
+PyAudio>=0.2.13; platform_system == "Windows"  # For microphone input on Windows
