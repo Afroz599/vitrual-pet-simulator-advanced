@@ -8,7 +8,7 @@ This project was designed to practice **Python modules, integration, and error h
 ## ✨ Key Features
 - **Core Pet Actions**: Feed, play, and check status  
 - **Interactive Feedback**: Sound effects on feeding and playing  
-- **Voice Interaction**: Control the pet using speech commands (`feed`, `play`, `status`)  
+- **Voice Interaction**: Control the pet using speech commands (`feed`, `play`)  
 - **Hover-to-Talk**: Simply hover over the "Talk" button to start voice recognition  
 - **GUI Interface**: Built with Tkinter for simplicity and accessibility  
 
