@@ -1,0 +1,5 @@
+virtual-pet-simulator/
+│── app.py              # Main application (Tkinter GUI + integration)
+│── requirements.txt    # Project dependencies
+│── README.md           # Project documentation
+│── images              # output
